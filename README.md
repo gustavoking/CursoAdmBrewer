@@ -1,27 +1,25 @@
-<h1 align="center">
-  <img src=".github/Logo.png" alt="Logo">
-</h1>
-
 ## Title
 
-✂️ FSW-BARBER
+✂️ Brewer
 
 ## Description
 
-🚀It is a web system made in mobile-first format through the Full Stack Week Bootcamp with Felipe Rocha, for scheduling appointments in barbershops
+🚀Web system to manage the sale of beers, allowing users to browse the catalog, add products to the cart, place orders, and for administrators to manage stock, orders, and products.
 
 ##
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 <h1 align="center">
-  <img width="200px" height="350px" src=".github/Initial.png" alt="SignIn">
-  <img width="200px" height="350px"src=".github/Agendamentos.png" alt="Agendamentos">
-  <img width="200px" height="350px"src=".github/Barbearia.png" alt="Barbearia">
-  <img width="200px" height="350px"src=".github/Servicos.png" alt="Barbearia">
-  <img width="200px" height="350px"src=".github/Login.png">
-  <img width="1000px" height="400px" src=".github/Cancelar.png" alt="SignUp">
-  </h1>
+  <img width="1000px" height="800px" src="src/main/java/br/com/adminfo/github/Login.png" alt="Login.png">
+  <img width="1000px" height="800px" src="src/main/java/br/com/adminfo/github/Dashboard.png" alt="Dashboard.png">
+  <img width="1000px" height="800px" src="src/main/java/br/com/adminfo/github/Beers.png" alt="Beers.png">
+  <img width="1000px" height="800px" src="src/main/java/br/com/adminfo/github/Sale.png" alt="Sale.png">
+  <img width="1000px" height="800px" src="src/main/java/br/com/adminfo/github/StylesPage.png" alt="StylesPage.png">
+  <img width="1000px" height="800px" src="src/main/java/br/com/adminfo/github/addCity.png" alt="addCity.png">
+  <img width="1000px" height="800px" src="src/main/java/br/com/adminfo/github/addClient.png" alt="SignIn">
+  <img width="1000px" height="800px" src="src/main/java/br/com/adminfo/github/addUser.png" alt="addUser.png">
+  <img width="1000px" height="800px" src="src/main/java/br/com/adminfo/github/listSales.png" alt="listSales.png">
+</h1>
 
 # Table of Contents
 
@@ -63,26 +61,9 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 - Add sale  
 - Add photo to beer  
 - Add city  
-- Generate report with Jasper  
+- Generate report with Jasper
 
+  ## Getting Started
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  This project runs on **Apache Tomcat** (embedded with Spring Boot by default).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
