@@ -52,6 +52,7 @@ public class CervejasController {
 		mv.addObject("estilos", estilos.findAll());
 		mv.addObject("sabores", Sabor.values());
 		mv.addObject("origens", Origem.values());
+		
 		return mv;
 	}
 
@@ -61,6 +62,7 @@ public class CervejasController {
 			return novo(cerveja);
 		}
 		
+		System.out.println(" testsetestestestsetestsetstests" + cerveja.getDescricao());
 		cadastroCervejaService.salvar(cerveja);
 		
 		attributes.addFlashAttribute("mensagem", "Cerveja salva com sucesso");
